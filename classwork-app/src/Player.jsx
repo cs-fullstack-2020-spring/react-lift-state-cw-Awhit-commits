@@ -6,6 +6,7 @@ export default class Player extends Component {
         this.state = {
             name: this.props.name,
         }
+        // this should be outside of your constructor
         let clickButton =() =>{
             this.setState(
                 {
